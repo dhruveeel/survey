@@ -350,4 +350,4 @@ def create_graph_image(G, cycles=None):
     return f"data:image/png;base64,{encoded}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=10000)
